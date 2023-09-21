@@ -28,8 +28,6 @@
     @include mobile {
       flex-direction: column;
       height: 90%;
-      
-      
     }
 
     .card {
@@ -48,7 +46,7 @@
         margin: 10px;
       }
 
-      &.featured{
+      &.featured {
         width: 300px;
         height: 75%;
         margin: 0 30px;
@@ -60,7 +58,7 @@
         }
       }
 
-      &:hover{
+      &:hover {
         transform: scale(1.1);
         transition: all 0.5s ease;
       }
@@ -73,56 +71,60 @@
         img {
           &.left,
           &.right {
-            height: 25px;
-          }
-        }
-        &.user{
-          height: 60px;
-          width: 60px;
-          border-radius: 50%;
-          object-fit: cover;
-          margin: 0 30px;
+            height: 40px;
 
-          @include mobile {
-            height: 20px;
-            width:  20px;
-            margin: 10 px;
+            @include mobile {
+              height: 20px;
+              
+              
+            }
+          }
+
+          &.pics {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 30px;
+
+            @include mobile {
+              height: 35px;
+              width: 35px;
+              
+            }
           }
         }
       }
-      .center{
+      .center {
         padding: 10px;
         background-color: #ffffffcf;
         border-radius: 10px;
 
         @include mobile {
           font-size: 11px;
-          height: 70px;
-          margin: 8px;
+          padding: 5px;
         }
       }
-      .bottom{
+      .bottom {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
       }
-      h3{
+      h3 {
         margin-bottom: 5px;
         @include mobile {
           font-size: 14px;
-          height: 50px;
-          margin: 2px;
-          
+          // height: 40px;
+          // margin: 8px;
         }
       }
-      h4{
+      h4 {
         color: gray;
 
         @include mobile {
           font-size: 13px;
-          height: 60px;
-          
+          // height: 40px;
         }
       }
     }

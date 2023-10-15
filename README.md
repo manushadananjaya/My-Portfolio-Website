@@ -27,7 +27,7 @@ You can see a live demo of the project https://manushadananjaya.netlify.app
 - React Router
 - HTML/SCSS
 - JavaScript
-- (Add other relevant technologies)
+
 
 ## Features
 
